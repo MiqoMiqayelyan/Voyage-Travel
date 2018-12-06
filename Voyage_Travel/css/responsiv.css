@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1058px) {
+    header .header_up .wrapper .login .login_menu li {
+        padding: 2px 15px;
+    }
+    header .logo_content .wrapper {
+        flex-direction: column;
+        padding: 10px;
+    }
+    main .holyday .wrapper .find_holyday {
+        width: 12%;
+    }
+    
+}
+@media only screen and (max-width: 950px) {
+    header .icons_conteiner {
+        display: none;
+    }
+    header .header_up .wrapper .login {
+        width: 100%;
+    }
+    header .logo_content .wrapper nav {
+        width: 100%;
+    }
+    main .holyday .wrapper .find_holyday::before{
+        display: none;
+    }
+    .footer_items{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}    
+@media only screen and (max-width: 782px){
+    header .logo_content .wrapper nav ul li{
+        padding: 10px;
+    }
+    main .slider .wrapper .slider_content .slider_buttons p{
+        padding: 10px;
+    }
+    
+}
+@media only screen and (max-width: 650px){
+    header .header_up .wrapper .login .login_menu {
+        flex-direction: column;
+    }
+    header .header_up .wrapper .login .login_menu li{
+        border-left: 1px solid #17202a;
+    }
+    header .header_up {
+        max-height: 110px;
+    }
+    header .logo_content .wrapper nav ul li {
+        padding: 3px;
+    }
+    main .slider .wrapper .slider_content .slider_buttons p{
+        padding: 0;
+    }
+    main .holyday .wrapper {
+        flex-direction: column;
+
+    }
+    main .holyday .wrapper .holyday_inputs {
+        flex-direction: column;
+        width: 100%;
+    }
+    main .holidays_type .wrapper .holidays_photos{
+        flex-wrap: wrap;
+    }
+    .footer_container {
+        flex-wrap: wrap;
+    }
+    .footer_second nav>ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    header .logo_content .wrapper .logo{
+        background-position: center;
+        width: 32%;
+    }
+    header .logo_content .wrapper nav ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 468px){
+    main .slider .wrapper .slider_content .slider_buttons{
+        width: 100%;
+    }
+    main .holyday .wrapper .holyday_inputs .where::before{
+        right: -26px;
+    }
+    main .holyday .wrapper .holyday_inputs .whene::before{
+        right: -26px;
+    }
+    main .special_offers{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 361px){
+    main .slider .wrapper .slider_content{
+        width: 100%;
+    }
+    header .logo_content .wrapper nav ul li{
+        padding: 1px;
+    }
+}
+
+
+
+
+
+
+
+
